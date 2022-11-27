@@ -32,13 +32,13 @@ const Header = () => {
             </h6>
           </div>
           <div className={styles.rightItemsWrapper}>
-            <div className={`${styles.bubble} ${styles.themeActive}`}>
+            {/* <div className={`${styles.bubble} ${styles.themeActive}`}>
               <img src={require("../../../assets/icons/sun.png")} alt="" />
             </div>
             <div className={`${styles.bubble}`}>
               <img src={require("../../../assets/icons/moon.png")} alt="" />
             </div>
-            <div className={styles.vrLine}></div>
+            <div className={styles.vrLine}></div> */}
             <div
               className={
                 lang === true
@@ -90,13 +90,13 @@ const Header = () => {
         onHide={() => setVisibleRight(false)}
       >
         <div className={styles.rightItemsWrapperMobile}>
-          <div className={`${styles.bubble} ${styles.themeActive}`}>
+          {/* <div className={`${styles.bubble} ${styles.themeActive}`}>
             <img src={require("../../../assets/icons/sun.png")} alt="" />
           </div>
           <div className={`${styles.bubble}`}>
             <img src={require("../../../assets/icons/moon.png")} alt="" />
           </div>
-          <div className={styles.vrLine}></div>
+          <div className={styles.vrLine}></div> */}
           <div
             className={
               lang === true
