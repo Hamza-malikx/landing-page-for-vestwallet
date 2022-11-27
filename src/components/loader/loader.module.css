@@ -1,0 +1,64 @@
+.loading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(
+    97.73deg,
+    rgba(253, 237, 125, 0.15) -15.03%,
+    rgba(159, 105, 180, 0.0255) 55.03%,
+    rgba(196, 196, 196, 0) 78.41%
+  ); */
+  /* background-image: linear-gradient(to right, #2c2c2c, #1d1d1d); */
+}
+.loading div {
+  /* cursor: pointer; */
+}
+/* Bouncing balls */
+.bounce {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.bounce div {
+  width: 25px;
+  height: 25px;
+  background: #763092;
+  border-radius: 50%;
+  animation: bouncing 0.5s cubic-bezier(0.19, 0.57, 0.3, 0.98) infinite
+    alternate;
+}
+
+.bounce div:nth-child(2) {
+  animation-delay: 0.1s;
+  opacity: 0.8;
+}
+
+.bounce div:nth-child(3) {
+  animation-delay: 0.2s;
+  opacity: 0.6;
+}
+
+.bounce div:nth-child(4) {
+  animation-delay: 0.3s;
+  opacity: 0.4;
+}
+
+@keyframes bouncing {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100px);
+  }
+}
+/* Dark Theme */
+.loadingDark {
+  background: #161616;
+}

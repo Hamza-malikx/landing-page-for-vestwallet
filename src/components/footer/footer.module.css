@@ -1,0 +1,147 @@
+.footer {
+  padding: 0 25px 0 24px;
+}
+.footerInner {
+  height: 109px;
+  background-color: rgba(0, 0, 0, 0.01);
+  border-radius: 28px;
+  padding: 0 39px 0 29px;
+}
+.footerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.left {
+  width: 32%;
+}
+.footerWrapper h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.6761px;
+  line-height: 22px;
+  color: #000000;
+}
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 14.3px;
+  width: 32%;
+}
+.underline:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0 58px;
+  width: 32%;
+}
+.socials p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6761px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.32);
+  margin-bottom: 7px;
+}
+.iconWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0 4%;
+}
+.iconWrapper img {
+  width: 24px;
+  height: 24px;
+  transition: all 0.5s ease-in-out;
+}
+.iconWrapper img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.contactBtn button {
+  height: 50px;
+  background: linear-gradient(83.49deg, #68459c 12.22%, #533581 97.48%);
+  border-radius: 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6761px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 33px;
+  border: none;
+}
+@media screen and (max-width: 992px) {
+  .footerInner {
+    height: auto;
+    padding: 10px 39px 10px 29px;
+  }
+  .footerWrapper {
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  .left,
+  .middle {
+    width: 49%;
+  }
+  .right {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footerWrapper {
+    flex-direction: column;
+  }
+  .left,
+  .middle,
+  .right {
+    width: 100%;
+    justify-content: center;
+  }
+  .left h6 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footerInner {
+    padding: 22px 39px 22px 29px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer {
+    padding: 0 10px 0 10px;
+  }
+  .right {
+    gap: 0 15px;
+    justify-content: center;
+  }
+  .contactBtn {
+    height: 37px;
+    border-radius: 6px;
+    padding: 0 13px;
+  }
+  .iconWrapper {
+    gap: 0 5px;
+  }
+  .footerInner {
+    padding: 20px 10px;
+  }
+  .iconWrapper img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .middle {
+    justify-content: center;
+  }
+}

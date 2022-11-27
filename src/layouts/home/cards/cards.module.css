@@ -1,0 +1,86 @@
+.cards {
+  padding: 130px 0 118px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.card {
+  padding: 22px 26px 21px;
+  border: 0.2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  max-width: 252px;
+  width: 100%;
+  align-self: stretch;
+}
+.circle {
+  height: 108px;
+  max-width: 108px;
+  width: 100%;
+  border-radius: 50%;
+  background-color: rgba(217, 217, 217, 0.25);
+  margin: 0 auto 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wallet {
+  height: 77px;
+  width: 80.21px;
+  margin: -5px auto 0;
+}
+.cash {
+  height: 71px;
+  width: 112.95px;
+}
+.secure {
+  width: 75px;
+  height: 75px;
+}
+.card h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+.card p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 992px) {
+  .wrapper {
+    width: 100%;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .cards {
+    padding: 83px 0 80px;
+  }
+  .card {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .circle {
+    margin: 0 auto 15px;
+  }
+}

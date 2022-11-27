@@ -1,0 +1,101 @@
+.mobileSection {
+  margin: 176.52px 31px 275px;
+  height: 433px;
+  background-color: rgba(217, 217, 217, 0.19);
+  border-radius: 21.9784px;
+  padding: 0 76px;
+}
+.mobileSection h2 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  color: #000000;
+  margin-bottom: 26px !important;
+  max-width: 595px;
+  width: 100%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+.content button {
+  max-width: 249px;
+  width: 100%;
+  height: 71.52px;
+  border-radius: 18.5426px;
+  border: none;
+  position: relative;
+  z-index: 2;
+}
+.content button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(87.61deg, #9f69b4 7.71%, #763092 93.23%);
+  opacity: 0.1;
+  border-radius: 18.5426px;
+}
+.content button span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21.1915px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(87.61deg, #9f69b4 7.71%, #763092 93.23%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.imgWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.imgWrapper img {
+  margin-top: -19px;
+  margin-right: 59px;
+}
+@media screen and (max-width: 768px) {
+  .mobileSection {
+    height: auto;
+    padding: 45px;
+  }
+  .imgWrapper {
+    justify-content: center;
+  }
+  .imgWrapper img {
+    margin-top: 30px;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mobileSection {
+    padding: 26px;
+    margin: 100px 31px 100px;
+  }
+  .mobileSection h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 13px !important;
+  }
+  .content button {
+    max-width: 216px;
+    height: 60.52px;
+    border-radius: 14px;
+  }
+  .content button:after {
+    border-radius: 14px;
+  }
+}
