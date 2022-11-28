@@ -21,7 +21,9 @@ const Hero = () => {
                   <button
                     className={styles.signUpBtn}
                     onClick={() => {
-                      navigate("/register");
+                      // navigate("/register");
+                      window.location.href =
+                        "https://app.vest-wallet.com/register";
                     }}
                   >
                     Abre tu cuenta
@@ -37,7 +39,9 @@ const Hero = () => {
                   <button
                     className={styles.signUpBtn}
                     onClick={() => {
-                      navigate("/register");
+                      // navigate("/register");
+                      window.location.href =
+                        "https://app.vest-wallet.com/register";
                     }}
                   >
                     Create an account
@@ -66,7 +70,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-     
     </div>
   );
 };
