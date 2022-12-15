@@ -62,7 +62,7 @@ const Header = () => {
             <button
               className={styles.signUpBtn}
               onClick={() => {
-                navigate("/register");
+                navigate("https://app.vest-walet/register");
               }}
             >
               {lang === false ? "Abre tu cuenta" : "Create an Account"}
@@ -70,7 +70,7 @@ const Header = () => {
             <button
               className={styles.loginBtn}
               onClick={() => {
-                navigate("/login");
+                navigate("https://app.vest-walet/login");
               }}
             >
               {lang === false ? <span>Ingresar</span> : <span>login</span>}
