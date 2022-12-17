@@ -62,7 +62,8 @@ const Header = () => {
             <button
               className={styles.signUpBtn}
               onClick={() => {
-                navigate("https://app.vest-walet/register");
+                // navigate("/register");
+                window.location.href = "https://app.vest-wallet.com/register";
               }}
             >
               {lang === false ? "Abre tu cuenta" : "Create an Account"}
@@ -70,7 +71,8 @@ const Header = () => {
             <button
               className={styles.loginBtn}
               onClick={() => {
-                navigate("https://app.vest-walet/login");
+                // navigate("/login");
+                window.location.href = "https://app.vest-wallet.com/login";
               }}
             >
               {lang === false ? <span>Ingresar</span> : <span>login</span>}
@@ -120,7 +122,8 @@ const Header = () => {
           <button
             className={styles.signUpBtn}
             onClick={() => {
-              navigate("/register");
+              // navigate("/register");
+              window.location.href = "https://app.vest-wallet.com/register";
             }}
           >
             {lang === false ? "Abre tu cuenta" : "Create an Account"}
@@ -128,7 +131,8 @@ const Header = () => {
           <button
             className={styles.loginBtn}
             onClick={() => {
-              navigate("/login");
+              // navigate("/login");
+              window.location.href = "https://app.vest-wallet.com/login";
             }}
           >
             {lang === false ? <span>Ingresar</span> : <span>login</span>}
