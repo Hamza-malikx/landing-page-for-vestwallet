@@ -8,12 +8,12 @@ const Footer = () => {
       <div className={styles.footerInner}>
         <div className={styles.footerWrapper}>
           <div className={styles.left}>
-            <h6>© 2022 Investium.Finance. All rights reserved.</h6>
+            <h6>© 2022 Vest Wallet. All rights reserved.</h6>
           </div>
           <div className={styles.middle}>
             <h6 className={styles.underline}>Privacy Policy</h6>
             <h6>-</h6>
-            <h6 className={styles.underline}>Terms of Use</h6>
+            <h6 className={styles.underline} onClick={()=> window.location.replace('https://app.vest-wallet.com/tos')}>Terms of Use</h6>
           </div>
           <div className={styles.right}>
             <div className={styles.socials}>
@@ -23,11 +23,11 @@ const Footer = () => {
                   src={require("../../assets/icons/telegramIcon.png")}
                   alt=""
                 />
-                <img src={require("../../assets/icons/yt.png")} alt="" />
+                <img src={require("../../assets/icons/yt.png")} alt=""/>
                 <img src={require("../../assets/icons/ld.png")} alt="" />
                 <img src={require("../../assets/icons/fbIcon.png")} alt="" />
                 <img src={require("../../assets/icons/Twitter.png")} alt="" />
-                <img src={require("../../assets/icons/insta.png")} alt="" />
+                <img src={require("../../assets/icons/insta.png")} alt="" onClick={()=> window.location.replace('https://www.instagram.com/vest_wallet/')}/>
               </div>
             </div>
             <div className={styles.contactBtn}>
