@@ -27,8 +27,7 @@ const Cards = () => {
               <>
                 <h6>Wallet</h6>
                 <p>
-                  You will have your own digital wallet with 7 currencies
-                  available, send, receive and invest your lucas your way.
+                Safely store your assets in our digital application wallet, funds are withrawable at any time.
                 </p>
               </>
             )}
@@ -51,10 +50,9 @@ const Cards = () => {
               </>
             ) : (
               <>
-                <h6>Invest</h6>
+                <h6>Stake</h6>
                 <p>
-                  Invest your money from your digital wallet and get up to 25%
-                  annual return, the best rate in the market.
+                Choose the amount of time you want to stake your assets and get daily interests over the lockdown period.
                 </p>
               </>
             )}
@@ -77,10 +75,9 @@ const Cards = () => {
               </>
             ) : (
               <>
-                <h6>Security</h6>
+                <h6>Team</h6>
                 <p>
-                  We are not a mutual fund, your capital and profitability are
-                  legally guaranteed.
+                Our team is formed by developers, economists and business advisors, we believe our team is strong enough to keep the project healthy and sustainable over time.
                 </p>
               </>
             )}

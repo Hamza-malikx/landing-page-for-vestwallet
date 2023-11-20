@@ -19,10 +19,9 @@ const RestWrappers = () => {
               </>
             ) : (
               <>
-                <h2>Annual return according to your plan.</h2>
+                <h2>Daily staking rewards</h2>
                 <p>
-                  We have different plans for each user profile, get from 12% to
-                  25% annual return.
+                We offer up to 292% APY in our Earn section, rewards are distributed and can be claimed daily.
                 </p>
               </>
             )}
@@ -64,11 +63,11 @@ const RestWrappers = () => {
                 </>
               ) : (
                 <>
-                  <h2>Manage your finances easily, all from one place.</h2>
+                  <h2>Sustainability</h2>
                   <p>
-                    We have advanced, intuitive and fully automated
-                    technological systems, our web app and mobile application
-                    work 24/7, without interruptions.
+                  Our team is formed by capable economists and business advisors to ensure longevity to our project.
+Your funds are and will always be safe and withdrawable at any time.
+Our weekly results will be posted on our discord & telegram.
                   </p>
                 </>
               )}
@@ -89,11 +88,9 @@ const RestWrappers = () => {
               </>
             ) : (
               <>
-                <h2>Clear rules from minute one.</h2>
+                <h2>Staking yields</h2>
                 <p>
-                  Receive fixed and totally secure interest rates, choose the
-                  time of your investment and receive daily interest,
-                  participate.
+                Our staking yields may be modified in the future, to ensure sustainability, your APY won't change if you already started a Staking Period.
                 </p>
               </>
             )}

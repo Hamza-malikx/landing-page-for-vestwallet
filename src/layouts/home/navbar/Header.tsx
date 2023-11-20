@@ -49,7 +49,7 @@ const Header = () => {
             >
               <h6>EN</h6>
             </div>
-            <div
+            {/* <div
               className={
                 lang === false
                   ? `${styles.bubble} ${styles.langActive}`
@@ -58,7 +58,7 @@ const Header = () => {
               onClick={langEsHandler}
             >
               <h6>ES</h6>
-            </div>
+            </div> */}
             <button
               className={styles.signUpBtn}
               onClick={() => {
@@ -75,7 +75,7 @@ const Header = () => {
                 window.location.href = "https://app.vest-wallet.com/login";
               }}
             >
-              {lang === false ? <span>Ingresar</span> : <span>login</span>}
+              {lang === false ? <span>Ingresar</span> : <span>Log in</span>}
             </button>
           </div>
           <button
@@ -109,7 +109,7 @@ const Header = () => {
           >
             <h6>EN</h6>
           </div>
-          <div
+          {/* <div
             className={
               lang === false
                 ? `${styles.bubble} ${styles.langActive}`
@@ -118,7 +118,7 @@ const Header = () => {
             onClick={langEsHandler}
           >
             <h6>ES</h6>
-          </div>
+          </div> */}
           <button
             className={styles.signUpBtn}
             onClick={() => {
@@ -126,7 +126,7 @@ const Header = () => {
               window.location.href = "https://app.vest-wallet.com/register";
             }}
           >
-            {lang === false ? "Abre tu cuenta" : "Create an Account"}
+            {lang === false ? "Abre tu cuenta" : "Join now"}
           </button>
           <button
             className={styles.loginBtn}
@@ -135,7 +135,7 @@ const Header = () => {
               window.location.href = "https://app.vest-wallet.com/login";
             }}
           >
-            {lang === false ? <span>Ingresar</span> : <span>login</span>}
+            {lang === false ? <span>Ingresar</span> : <span>Log in</span>}
           </button>
         </div>
       </Sidebar>

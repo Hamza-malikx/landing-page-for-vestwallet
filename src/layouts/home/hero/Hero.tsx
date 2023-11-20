@@ -31,10 +31,9 @@ const Hero = () => {
                 </>
               ) : (
                 <>
-                  <h1>Your best decision to save and invest.</h1>
+                   <h1>First long term proved sustainable DeFi project.</h1>
                   <p>
-                    Spend, save and invest your money with the best rates in the
-                    market, all from one place
+                  Invest in a proved sustainable DeFi project where you money is always safe and secured.
                   </p>
                   <button
                     className={styles.signUpBtn}
