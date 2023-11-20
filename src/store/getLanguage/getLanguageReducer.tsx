@@ -5,7 +5,7 @@ import {
 } from "./getLanguageType";
 const initialState = {
   loading: false,
-  lang: false,
+  lang: true,
   error: "",
 };
 const themeState = () => {
