@@ -25,7 +25,7 @@ const MobileSection = () => {
                 </h2>
                 <div style={{display:"flex", width:"300px",gap:"20px"}}>
 
-                <button onClick={()=>{console.log("nigger"); window.open("https://www.instagram.com/vest_wallet/", "_blank")}}>
+                <button onClick={()=>{window.open("https://www.instagram.com/vest_wallet/", "_blank")}}>
                   <span >Discord</span>
                 </button>
                 <button onClick={()=> window.open("https://www.instagram.com/vest_wallet/", "_blank")}>
