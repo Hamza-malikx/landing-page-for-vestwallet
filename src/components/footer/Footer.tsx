@@ -11,11 +11,11 @@ const Footer = () => {
           <div className={styles.left}>
             <h6>© 2022 Vest Wallet. All rights reserved.</h6>
           </div>
-          <div className={styles.middle}>
+          {/* <div className={styles.middle}>
             <h6 className={styles.underline}>Privacy Policy</h6>
             <h6>-</h6>
             <h6 className={styles.underline} onClick={()=> window.location.assign('https://app.vest-wallet.com/tos')}>Terms of Use</h6>
-          </div>
+          </div> */}
           <div className={styles.right}>
             <div className={styles.socials}>
               <p>{lang === false ? "Redes sociales" : "Social networks"}</p>
