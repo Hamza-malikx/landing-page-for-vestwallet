@@ -24,11 +24,11 @@ const Header = () => {
             <div className={styles.logo}>
               <img
                 src={require("../../../assets/icons/logo.png")}
-                alt="vest wallet logo"
+                alt="investium capital logo"
               />
             </div>
             <h6>
-              <span>VEST</span> WALLET
+              <span>INVESTIUM</span> CAPITAL
             </h6>
           </div>
           <div className={styles.rightItemsWrapper}>

@@ -9,7 +9,7 @@ const Footer = () => {
       <div className={styles.footerInner}>
         <div className={styles.footerWrapper}>
           <div className={styles.left}>
-            <h6>© 2022 Vest Wallet. All rights reserved.</h6>
+            <h6>© 2022 Investium Capital. All rights reserved.</h6>
           </div>
           {/* <div className={styles.middle}>
             <h6 className={styles.underline}>Privacy Policy</h6>

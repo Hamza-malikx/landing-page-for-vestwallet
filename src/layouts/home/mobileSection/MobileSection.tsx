@@ -39,7 +39,7 @@ const MobileSection = () => {
         <div className="col-lg-6 col-md-6 col-sm-12">
           <div className={styles.imgWrapper}>
             <img
-              src={require("../../../assets/images/testimonial4.png")}
+              src={require("../../../assets/images/hero/heroRightAbs.png")}
               alt=""
             />
           </div>

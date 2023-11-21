@@ -23,7 +23,7 @@ const Hero = () => {
                     onClick={() => {
                       // navigate("/register");
                       window.location.href =
-                        "https://app.vest-wallet.com/register";
+                        "https://app.investiumcapital.net/register";
                     }}
                   >
                     Abre tu cuenta
@@ -40,7 +40,7 @@ const Hero = () => {
                     onClick={() => {
                       // navigate("/register");
                       window.location.href =
-                        "https://app.vest-wallet.com/register";
+                        "https://app.investiumcapital.net/register";
                     }}
                   >
                     Create an account
