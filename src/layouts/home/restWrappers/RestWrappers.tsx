@@ -63,12 +63,19 @@ const RestWrappers = () => {
                 </>
               ) : (
                 <>
-                  <h2>Sustainability</h2>
+                  <h2>About us</h2>
                   <p>
-                  Our team is formed by capable economists and business advisors to ensure longevity to our project.
-Your funds are and will always be safe and withdrawable at any time.
-Our weekly results will be posted on our discord & telegram.
+                  Investium Capital is a cutting-edge financial venture with a primary focus on the cryptocurrency sector, designed to empower our community to generate substantial income.
                   </p>
+                  <br></br>
+                  <p>
+Our income-generation model at Investium Capital revolves around strategic arbitrage practices. We diligently capitalize on every pricing disparity within the market, deploying automated bots that spring into action the moment an arbitrage opportunity arises. Operating both in the cryptocurrency space and within various South American local markets, we leverage variances in bank rates and exploit discrepancies in credit card usage, especially in countries experiencing high inflation.
+</p>
+<br></br>
+
+<p>
+In addition to our dominance in cryptocurrency markets, Investium Capital extends its reach into the sports betting industry, albeit constituting a smaller percentage of our overall operations. Our commitment to excellence ensures that our arbitrage bots are constantly at the forefront of financial opportunities, solidifying our position as a dynamic force in income generation.
+</p>
                 </>
               )}
             </div>

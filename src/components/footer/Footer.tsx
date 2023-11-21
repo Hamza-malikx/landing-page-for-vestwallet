@@ -28,7 +28,7 @@ const Footer = () => {
                 <img src={require("../../assets/icons/ld.png")} alt="" />
                 <img src={require("../../assets/icons/fbIcon.png")} alt="" />
                 <img src={require("../../assets/icons/Twitter.png")} alt="" />
-                <img src={require("../../assets/icons/insta.png")} alt="" onClick={()=> window.location.assign('https://www.instagram.com/vest_wallet/')}/>
+                <img src={require("../../assets/icons/insta.png")} alt="" onClick={()=> window.location.assign('https://www.instagram.com/investiumcapital/')}/>
               </div>
             </div>
             <div className={styles.contactBtn}>
