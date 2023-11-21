@@ -28,7 +28,7 @@ const MobileSection = () => {
                 <button onClick={()=>{window.open("https://discord.gg/aCkbsga7G6", "_blank")}}>
                   <span >Discord</span>
                 </button>
-                <button onClick={()=> window.open("t.me/investiumcapital", "_blank")}>
+                <button onClick={()=> {window.open("https://t.me/investiumcapital", "_blank")}}>
                   <span >Telegram</span>
                 </button>
                 </div>
