@@ -123,7 +123,7 @@ const Header = () => {
             className={styles.signUpBtn}
             onClick={() => {
               // navigate("/register");
-              window.location.href = "https://app.vest-wallet.com/register";
+              window.location.href = "https://app.investiumcapital.net/register";
             }}
           >
             {lang === false ? "Abre tu cuenta" : "Join now"}
@@ -132,7 +132,7 @@ const Header = () => {
             className={styles.loginBtn}
             onClick={() => {
               // navigate("/login");
-              window.location.href = "https://app.vest-wallet.com/login";
+              window.location.href = "https://app.investiumcapital.net/login";
             }}
           >
             {lang === false ? <span>Ingresar</span> : <span>Log in</span>}
