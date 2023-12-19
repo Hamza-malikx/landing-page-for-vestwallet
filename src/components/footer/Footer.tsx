@@ -9,7 +9,7 @@ const Footer = () => {
       <div className={styles.footerInner}>
         <div className={styles.footerWrapper}>
           <div className={styles.left}>
-            <h6>© 2022 Investium Capital. All rights reserved.</h6>
+            <h6>© 2023 Investium Capital. All rights reserved.</h6>
           </div>
           {/* <div className={styles.middle}>
             <h6 className={styles.underline}>Privacy Policy</h6>
@@ -31,7 +31,7 @@ const Footer = () => {
                 <img src={require("../../assets/icons/insta.png")} alt="" onClick={()=> window.location.assign('https://www.instagram.com/investiumcapital/')}/>
               </div>
             </div>
-            <div className={styles.contactBtn}>
+            <div className={styles.contactBtn} onClick={()=> window.open("https://discord.gg/RdS2HhKyWk", "_blank")}>
               <button>{lang === false ? "Contacto" : "Contact us"}</button>
             </div>
           </div>

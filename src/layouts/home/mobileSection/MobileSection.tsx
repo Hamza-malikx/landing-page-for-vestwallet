@@ -25,12 +25,12 @@ const MobileSection = () => {
                 </h2>
                 <div style={{display:"flex", width:"300px",gap:"20px"}}>
 
-                <button onClick={()=>{window.open("https://discord.gg/aCkbsga7G6", "_blank")}}>
+                <button onClick={()=>{window.open("https://discord.gg/RdS2HhKyWk", "_blank")}}>
                   <span >Discord</span>
                 </button>
-                <button onClick={()=> {window.open("https://t.me/investiumcapital", "_blank")}}>
+                {/* <button onClick={()=> {window.open("https://t.me/investiumcapital", "_blank")}}>
                   <span >Telegram</span>
-                </button>
+                </button> */}
                 </div>
               </>
             )}
